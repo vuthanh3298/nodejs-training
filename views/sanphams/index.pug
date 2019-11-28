@@ -1,0 +1,10 @@
+h1 đây là trang chính của sản phẩm 
+table(border="1")
+    tr
+        th Tên sản phẩm
+        th Giá
+    if dssp
+        each sp in dssp
+            tr
+                td= sp.name
+                td= sp.price
