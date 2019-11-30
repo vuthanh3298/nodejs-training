@@ -19,3 +19,16 @@ module.exports.search = async function(req, res) {
 module.exports.create = function(req, res) {
     res.render('sanphams/create');
 }
+
+module.exports.postCreate = function(req, res) {
+    // var name = req.body.name;
+    // var price = req.body.price;
+    // var sp = new SanPham({
+    //     name: name,
+    //     price: price
+    // });
+    //SanPham.create(sp);
+
+    SanPham.create(req.body);
+    res.redirect('/sanphams');
+}

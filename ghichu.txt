@@ -1,0 +1,10 @@
+route -> điều hướng;
+controller -> xử lý;
+model -> ORM tới CSDL;
+
+trong cái route là link web
+gọi cái link nào thì thực hiện cái hàm đằng sau đó
+hàm cái hàm thì viết trong controller
+trong controller thực thi cái gì đó xong nó render ra file mình viết
+mà file mình viết thì nằm trong views
+no confuse
